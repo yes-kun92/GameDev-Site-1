@@ -1,0 +1,71 @@
+/*CSS for my demonstration project*/
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   width: 900px;
+   margin: auto;
+   background-color: #e2dfe7;
+}
+h1 {
+   color: #493595 ;
+   margin-left: 40px;
+   text-align: center;
+}
+nav{
+   background-color: #493595 ;
+   height: 35px;
+   padding-bottom: 20px;
+}
+nav ul {
+   list-style: none; 
+   padding-top: 8px; 
+}
+nav li {
+   display: inline;
+}
+nav a {
+   text-decoration: none;
+   color: white;
+   font-size: 1.2em;
+   font-weight: bold;
+   margin-right: 20px;
+}
+nav a:hover{
+   color: black;
+}
+section {
+   float: left;
+   width: 100%;
+   margin-right: 5%;
+   margin-bottom: 20px;
+}
+
+footer {
+   clear: both;
+   background-color: #493595;
+   color: white;
+   height: 50px;
+   text-align: center;
+   position:fixed;
+   bottom: 0;
+   left:0%;
+   width: 100%;
+}
+footer a {
+   text-decoration: none;
+   color: white;
+   margin-left: 20px;
+}
+
+table {
+  width: 100%;
+}
+.image_right{
+   float:right;
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+.image_left{
+   float:left;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
