@@ -1,23 +1,23 @@
 /*CSS for my demonstration project*/
 body{
+   font-size: large;
+   color: #734f96;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   width: 900px;
+   width: 1000px;
    margin: auto;
-   background-color: #e2dfe7;
+   background-color: #101010 ;
 }
 h1 {
-   color: #493595 ;
-   margin-left: 40px;
+   color: #734f96 ;
    text-align: center;
 }
-nav{
-   background-color: #493595 ;
-   height: 35px;
-   padding-bottom: 20px;
-}
+
+
 nav ul {
+   text-align: center;
    list-style: none; 
-   padding-top: 8px; 
+   padding-top: 15px;
+   padding-right:62px;
 }
 nav li {
    display: inline;
@@ -30,10 +30,10 @@ nav a {
    margin-right: 20px;
 }
 nav a:hover{
-   color: black;
+   color: #734f96 ;
 }
 section {
-   float: left;
+   text-align: center;
    width: 100%;
    margin-right: 5%;
    margin-bottom: 20px;
@@ -41,18 +41,13 @@ section {
 
 footer {
    clear: both;
-   background-color: #493595;
-   color: white;
-   height: 50px;
+   color: palevioletred;
+   height: 30px;
    text-align: center;
-   position:fixed;
-   bottom: 0;
-   left:0%;
-   width: 100%;
 }
 footer a {
    text-decoration: none;
-   color: white;
+   color: palevioletred;
    margin-left: 20px;
 }
 
