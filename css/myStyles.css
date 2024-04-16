@@ -1,17 +1,15 @@
-/*CSS for my demonstration project*/
 body{
    font-size: large;
-   color: #734f96;
+   color: white;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    width: 1000px;
    margin: auto;
    background-color: #101010 ;
 }
 h1 {
-   color: #734f96 ;
+   color: white ;
    text-align: center;
 }
-
 
 nav ul {
    text-align: center;
@@ -19,48 +17,44 @@ nav ul {
    padding-top: 15px;
    padding-right:62px;
 }
+
 nav li {
    display: inline;
 }
+
 nav a {
    text-decoration: none;
    color: white;
    font-size: 1.2em;
-   font-weight: bold;
+   font-weight:bold;
    margin-right: 20px;
 }
 nav a:hover{
    color: #734f96 ;
 }
-section {
-   text-align: center;
-   width: 100%;
-   margin-right: 5%;
-   margin-bottom: 20px;
-}
 
-footer {
-   clear: both;
-   color: palevioletred;
-   height: 30px;
-   text-align: center;
-}
-footer a {
-   text-decoration: none;
-   color: palevioletred;
-   margin-left: 20px;
-}
+td:hover {
+   color: white;
+   text-decoration: underline;
+ }
 
 table {
-  width: 100%;
+   border-spacing: 0px;
+   padding-top: 20px;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
 }
-.image_right{
-   float:right;
-   margin-left: 10px;
-   margin-bottom: 10px;
+
+tr {
+   outline-style: groove;
+   outline-width: thick;
+   outline-color: silver;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
 }
-.image_left{
-   float:left;
-   margin-right: 10px;
-   margin-bottom: 10px;
+
+#shop a {
+   text-decoration: none;
+   color: inherit;
 }
