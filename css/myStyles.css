@@ -54,11 +54,6 @@ tr {
    background-size: 100% 100%;
 }
 
-#shop a {
-   text-decoration: none;
-   color: inherit;
-}
-
 button {
    border: groove;
    border-color: gold;

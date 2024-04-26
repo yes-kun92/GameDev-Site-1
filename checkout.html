@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <a href="./index.html">
-        <img src="img/OIG3.png" alt="return to the home page"; style="width: 150px; height: 150px; position: fixed; top: 15px; left: 30px; outline-width: thick; outline-style: groove; outline-color: whitesmoke;">
+        <img src="img/OIG3.png" alt="return to the home page"; style="width: 100px; height: 100px; position: fixed; top: 15px; left: 30px; outline-width: thick; outline-style: groove; outline-color: whitesmoke;">
 <head>
     <meta charset="UTF-8">
     <title>Checkout Page</title>
@@ -19,12 +19,47 @@
         </nav>
     <main>
   
+        <section style="text-align: center;">
+            <form action="purchasecomplete.html">
+                <br>
+                <label for="name">Your name</label><br>
+                <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+                <br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+                <br>
+                <label for="password">Enter a Password</label><br>
+                <input type="password" id="password" name="password" placeholder="Your Password" required><br>
+                <br>
+                <label for="password">Confirm Password</label><br>
+                <input type="password" id="password" name="password" placeholder="Repeat Password" required><br>
+                <br>
+                <label for="gender">Put in Your Gender</label><br>
+                <input list="gender" name="gender" placeholder="Your Gender" required>
+                <datalist id="gender">
+                    <option value="Male"></option>
+                    <option value="Female"></option>
+                    <option value="Non-Binary"></option>
+                    <option value="Other"></option>
+                </datalist><br>
+                <br>
+                <label for="address">What's You're Address</label>
+                <input type="text" id="address" name="address" placeholder="Address" required><br>
+                <label for="suburb">What Suburb Are You In</label>
+                <input type="text" id="suburb" name="suburb" placeholder="Suburb" required><br>
+                <label for="state">What Plane do you reside in? (what is your state?)</label>
+                <input type="text" id="state" name="state" placeholder="State" required><br>
+                <label for="post">What is Your Postcode</label>
+                <input type="text" id="post" name="post" placeholder="Postcode" minlength="4" maxlength="4" pattern="[1-9]{4}" required><br>
+                <br>
+                <label for="phone">What is Your Phone Number</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" pattern="[1-9]" required><br>
+                <br>
+                <input type="submit" value="Submit Answers*">
+                <input type="reset" value="Clear Answers">
+            </form>
+            <p style="color: whitesmoke;">*None of the answers on this form will be saved.</p>
+        </section>
     </main>
-    
-    <footer>
-        <p>
-            &copy; Chisholm
-        </p>
-    </footer>
 </body>
 </html>
